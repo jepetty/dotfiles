@@ -17,10 +17,10 @@ Remember to install Source Code Pro from here https://github.com/adobe-fonts/sou
 
 Download and symlink dotfiles
 
-This will clone rosshamish/dotfiles into ~/Developer/rosshamish/dotfiles, then symlink ~/.files to ~/Developer/rosshamish/dotfiles/home/.files
+This will clone jepetty/dotfiles into ~/Developer/jepetty/dotfiles, then symlink ~/.files to ~/Developer/jepetty/dotfiles/home/.files
 
 ```
-curl --silent https://raw.githubusercontent.com/rosshamish/dotfiles/master/install.sh | sh
+curl --silent https://raw.githubusercontent.com/jepetty/dotfiles/master/install.sh | sh
 ```
 
 ---
@@ -30,8 +30,8 @@ Bootstrap new system
 This is a lot heavier and will change lots of system settings. Read bootstrap-new-system.sh before executing it. This will also download and symlink dotfiles.
 
 ```
-curl --silent https://raw.githubusercontent.com/rosshamish/dotfiles/master/install.sh | sh
-cd ~/Developer/rosshamish/dotfiles
+curl --silent https://raw.githubusercontent.com/jepetty/dotfiles/master/install.sh | sh
+cd ~/Developer/jepetty/dotfiles
 sh bootstrap-new-system.sh
 ```
 
