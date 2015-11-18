@@ -46,11 +46,11 @@ if [[ `uname` == 'Darwin' ]]; then
   fi
 
   echo 'Tweaking OS X...'
-    source "$dev/rosshamish/dotfiles/etc/osx.sh"
+    source "$dev/jepetty/dotfiles/etc/osx.sh"
 fi
 
 echo 'Symlinking config files...'
-  source "$dev/rosshamish/dotfiles/symlink-dotfiles.sh"
+  source "$dev/jepetty/dotfiles/symlink-dotfiles.sh"
 
 open_apps() {
   echo 'Install apps:'
